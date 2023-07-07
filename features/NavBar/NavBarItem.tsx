@@ -1,21 +1,17 @@
 import { Flex, Text } from '@chakra-ui/react';
 import { MouseEventHandler } from 'react';
-
-export const NavBarItem = ({
-  text,
-  isSelected,
-  onClick,
-  inActive,
-}: {
+type Props = {
   inActive?: boolean;
   text: string;
   isSelected: boolean;
   onClick: MouseEventHandler<HTMLDivElement>;
-}) => {
+};
+
+export const NavBarItem = ({ text, isSelected, onClick, inActive }: Props) => {
   return (
     <Flex
       opacity={inActive ? 0.5 : 1}
-      width={'200px'}
+      width="full"
       onClick={onClick}
       cursor={'pointer'}
     >
@@ -26,6 +22,7 @@ export const NavBarItem = ({
         backgroundColor={isSelected ? '#5136C2' : '#7453FD'}
       >
         <Text
+          noOfLines={1}
           color="white"
           fontFamily={'DM Sans'}
           fontWeight="medium"

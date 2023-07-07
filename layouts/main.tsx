@@ -1,11 +1,5 @@
 import { ReactElement } from 'react';
-import {
-  Box,
-  Container,
-  Flex,
-  Spacer,
-  useBreakpointValue,
-} from '@chakra-ui/react';
+import { Box, Container, Flex, useBreakpointValue } from '@chakra-ui/react';
 import MobileViewDisabled from '../features/Onboarding/components/MobileViewDisabled';
 import Head from 'next/head';
 import { Header, NavBar } from '../features';
@@ -50,8 +44,9 @@ export const Layout = ({ children }: { children: ReactElement }) => {
         <Box
           width={'100%'}
           height={'100%'}
-          paddingLeft={'54px'}
-          paddingRight={'54px'}
+          paddingLeft={'50px'}
+          paddingBottom={'25px'}
+          paddingRight={'50px'}
           overflowY="scroll"
           position={'relative'}
         >
