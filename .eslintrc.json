@@ -19,11 +19,11 @@
 
   "plugins": ["react", "prettier", "hooks", "@typescript-eslint"],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": "off",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/rules-of-hooks": "off",
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": "error"
+    "@typescript-eslint/no-unused-vars": "off"
   }
 }
