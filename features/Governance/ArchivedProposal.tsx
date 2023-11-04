@@ -1,5 +1,5 @@
 import { GovernanceQueryClient } from '../../client/Governance.client';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { useAppState } from '../../contexts/AppStateContext';
 import { getProposalTypeForGovPublicProposals } from '../../utils/proposalUti';
 import {

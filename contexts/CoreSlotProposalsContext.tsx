@@ -2,7 +2,7 @@ import { ReactNode, createContext, useContext, useMemo } from 'react';
 import { ProposalResponse } from '../client/Governance.types';
 import { useCoreSlotProposals } from '../features/Governance/useGovernance';
 import { useCosmWasmClientContext } from './CosmWasmClient';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { NEXT_PUBLIC_GOVERNANCE_CONTRACT } from '../config/defaults';
 import { GovernanceQueryClient } from '../client/Governance.client';
 

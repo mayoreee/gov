@@ -30,7 +30,7 @@ import { chainName } from '../../config/defaults';
 import {
   CosmWasmClient,
   SigningCosmWasmClient,
-} from '@cosmjs/cosmwasm-stargate';
+} from '@jmesworld/cosmwasm-stargate';
 import { useQuery } from '@tanstack/react-query';
 import { useIdentityserviceRegisterDaoMutation } from '../../client/Identityservice.react-query';
 import { StdFee } from '@cosmjs/amino';

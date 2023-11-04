@@ -5,7 +5,7 @@ import {
   useEffect,
   useState,
 } from 'react';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { rpc } from '../config/defaults';
 import LoadingComponent from '../features/components/genial/LoadingMessage';
 import { Button } from '@chakra-ui/react';

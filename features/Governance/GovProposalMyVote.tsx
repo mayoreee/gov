@@ -10,7 +10,7 @@ import { useToast } from '../../hooks/useToast';
 import { useChain } from '@cosmos-kit/react';
 import { chainName } from '../../config/defaults';
 import { ReactNode, useState } from 'react';
-import { SigningCosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { SigningCosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 
 import { StdFee } from '@cosmjs/amino';
 import { GovernanceClient } from '../../client/Governance.client';

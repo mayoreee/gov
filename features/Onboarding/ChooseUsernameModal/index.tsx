@@ -2,7 +2,7 @@ import { useToast } from '../../../hooks/useToast';
 import {
   CosmWasmClient,
   SigningCosmWasmClient,
-} from '@cosmjs/cosmwasm-stargate';
+} from '@jmesworld/cosmwasm-stargate';
 
 import { useState, useDeferredValue, useMemo } from 'react';
 import {

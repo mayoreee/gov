@@ -14,7 +14,7 @@ import { IdentityserviceQueryClient } from '../../client/Identityservice.client'
 import {
   CosmWasmClient,
   SigningCosmWasmClient,
-} from '@cosmjs/cosmwasm-stargate';
+} from '@jmesworld/cosmwasm-stargate';
 
 import { ProposalType } from '../components/Proposal/ProposalType';
 import { DAOProposalReducer, Member, State } from './DaoProposalReducer';

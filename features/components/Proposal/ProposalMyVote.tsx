@@ -12,7 +12,7 @@ import { useToast } from '../../../hooks/useToast';
 import { useChain } from '@cosmos-kit/react';
 
 import { useState } from 'react';
-import { SigningCosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { SigningCosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 
 import { StdFee } from '@cosmjs/amino';
 import { DaoMultisigClient } from '../../../client/DaoMultisig.client';

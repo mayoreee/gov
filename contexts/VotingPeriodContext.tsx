@@ -2,7 +2,7 @@ import { useCosmWasmClientContext } from '../contexts/CosmWasmClient';
 import { GovernanceQueryClient } from '../client/Governance.client';
 import { useGovernancePeriodInfoQuery } from '../client/Governance.react-query';
 import { ReactNode, createContext, useContext, useMemo } from 'react';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { momentLeft } from '../utils/time';
 import { capitalizeFirstLetter } from '../lib/strings';
 import { PeriodInfoResponse, ProposalPeriod } from '../client/Governance.types';

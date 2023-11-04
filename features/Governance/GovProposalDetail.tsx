@@ -15,7 +15,7 @@ import { useToast } from '../../hooks/useToast';
 import { useEffect, useMemo, useState } from 'react';
 import { useChain } from '@cosmos-kit/react';
 
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import {
   GovernanceClient,
   GovernanceQueryClient,

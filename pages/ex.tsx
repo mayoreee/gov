@@ -4,7 +4,7 @@ import { useGovernanceProposalsQuery } from '../client/Governance.react-query';
 import { ProposalQueryStatus } from '../client/Governance.types';
 import { NEXT_PUBLIC_GOVERNANCE_CONTRACT } from '../config/defaults';
 import { useCosmWasmClientContext } from '../contexts/CosmWasmClient';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { Button } from '@chakra-ui/react';
 
 const Example = () => {

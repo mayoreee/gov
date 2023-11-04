@@ -8,7 +8,7 @@ import {
   CosmWasmClient,
   SigningCosmWasmClient,
   ExecuteResult,
-} from '@cosmjs/cosmwasm-stargate';
+} from '@jmesworld/cosmwasm-stargate';
 import { StdFee } from '@cosmjs/amino';
 import {
   Addr,

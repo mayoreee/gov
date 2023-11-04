@@ -10,7 +10,7 @@ import {
   useMutation,
   UseMutationOptions,
 } from '@tanstack/react-query';
-import { ExecuteResult } from '@cosmjs/cosmwasm-stargate';
+import { ExecuteResult } from '@jmesworld/cosmwasm-stargate';
 import { StdFee, Coin } from '@cosmjs/amino';
 import {
   Addr,

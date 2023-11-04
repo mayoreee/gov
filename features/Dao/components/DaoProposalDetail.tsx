@@ -16,7 +16,7 @@ import {
   chainName,
 } from '../../../config/defaults';
 
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { DaoMultisigQueryClient } from '../../../client/DaoMultisig.client';
 import {
   useDaoMultisigProposalQuery,

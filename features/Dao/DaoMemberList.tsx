@@ -10,7 +10,7 @@ import {
   Tooltip,
   useToken,
 } from '@chakra-ui/react';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { useEffect, useState } from 'react';
 import { DaoMultisigQueryClient } from '../../client/DaoMultisig.client';
 import { useDaoMultisigListVotersQuery } from '../../client/DaoMultisig.react-query';

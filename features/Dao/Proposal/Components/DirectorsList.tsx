@@ -11,7 +11,7 @@ import {
   Tooltip,
   useToken,
 } from '@chakra-ui/react';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { IdentityserviceQueryClient } from '../../../../client/Identityservice.client';
 import { useIdentityserviceGetIdentityByOwnerQuery } from '../../../../client/Identityservice.react-query';
 import { useCosmWasmClientContext } from '../../../../contexts/CosmWasmClient';

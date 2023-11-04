@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { Box, Button, Flex, Text, Tooltip, useToken } from '@chakra-ui/react';
 import { useCallback, useRef } from 'react';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import DaoMembersList from '../DaoMemberList';
 
 import { DaoMultisigQueryClient } from '../../../client/DaoMultisig.client';

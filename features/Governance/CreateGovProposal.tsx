@@ -18,7 +18,7 @@ import {
 } from '@chakra-ui/react';
 import { useToast } from '../../hooks/useToast';
 
-import { SigningCosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { SigningCosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import React, { useEffect, useMemo, useState } from 'react';
 import { StdFee } from '@cosmjs/amino';
 import {
@@ -26,7 +26,7 @@ import {
   DaoMultisigQueryClient,
 } from '../../client/DaoMultisig.client';
 import { useDaoMultisigProposeMutation } from '../../client/DaoMultisig.react-query';
-import type { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import type { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { NumericFormat } from 'react-number-format';
 import { ProposalType } from '../components/Proposal/ProposalType';
 import { toBase64 } from '../../utils/identity';

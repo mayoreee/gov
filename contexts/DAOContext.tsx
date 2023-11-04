@@ -10,7 +10,7 @@ import { useCosmWasmClientContext } from './CosmWasmClient';
 import { useQuery } from '@tanstack/react-query';
 import { getMyDaos } from '../actions/dao';
 import { useIdentityContext } from './IdentityContext';
-import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
+import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { IdentityserviceQueryClient } from '../client/Identityservice.client';
 
 type Props = {
