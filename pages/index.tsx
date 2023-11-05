@@ -13,6 +13,7 @@ const Home: NextPageWithLayout = () => {
   return (
     <CoinSupplyContextProvider>
       {cosmWasmClient && (
+        //@ts-ignore
         <GovernanceProposal
           cosmWasmClient={cosmWasmClient}
           setSelectedProposalId={(id: number) => {

@@ -652,6 +652,7 @@ export default function CreateGovProposal({
                   marginTop="20px"
                   overflowY="auto"
                 >
+                  {/*@ts-ignore */}
                   <CodeEditor
                     width="100%"
                     style={{

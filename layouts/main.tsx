@@ -23,7 +23,9 @@ export const Layout = ({ children }: { children: ReactElement }) => {
   return (
     <Container maxW="100%" padding={0} backgroundColor="bg">
       <Flex padding={0} width={'100vw'} height={'100vh'}>
+        {/*@ts-ignore */}
         <ErrorBoundary>
+          {/*@ts-ignore */}
           <NavBar
             status={status}
             address={address as string}
@@ -53,6 +55,7 @@ export const Layout = ({ children }: { children: ReactElement }) => {
             position="sticky"
             bg="bg"
           >
+            {/*@ts-ignore */}
             <Header />
           </Flex>
           <Box

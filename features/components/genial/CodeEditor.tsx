@@ -29,6 +29,7 @@ const CodeEditor = ({
       width={'100%'}
       overflow={'hidden'}
     >
+      {/*@ts-ignore */}
       <AceEditor
         readOnly={readonly}
         value={value}

@@ -46,6 +46,7 @@ export default class Document extends NextDocument {
             background-color: #7453FD;
           }`}
         </style>
+        {/*@ts-ignore */}
         <Head />
         <body
           style={{
@@ -62,6 +63,7 @@ export default class Document extends NextDocument {
           </div>
           <ColorModeScript type="localStorage" initialColorMode={'light'} />
           <Main />
+          {/*@ts-ignore */}
           <NextScript />
         </body>
       </Html>

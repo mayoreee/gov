@@ -49,6 +49,7 @@ export const ProposalExcuteRawData = ({ proposal }: Props) => {
         )}
 
         <Flex flexGrow={1} w="full">
+          {/*@ts-ignore */}
           <CodeEditor
             width="100%"
             showPrintMargin

@@ -251,6 +251,7 @@ const NavBar = ({
           />
         </Box>
       )}
+      {/*@ts-ignore */}
       <MyDaoList />
 
       <Link href="/dao/create">

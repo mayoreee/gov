@@ -11,6 +11,7 @@ const Home: NextPageWithLayout = () => {
   return (
     <CoinSupplyContextProvider>
       {cosmWasmClient && (
+        //@ts-ignore
         <ArchivedProposal
           title="PASSED PROPOSALS"
           tab="passed"

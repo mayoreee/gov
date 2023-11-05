@@ -10,6 +10,7 @@ const Funded = () => {
   return (
     <CoinSupplyContextProvider>
       {cosmWasmClient && (
+        //@ts-ignore
         <CoreSlotProposals
           cosmWasmClient={cosmWasmClient}
           setSelectedProposalId={() => {

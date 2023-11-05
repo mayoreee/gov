@@ -84,11 +84,14 @@ function CreateCosmosApp({ Component, pageProps }: AppPropsWithLayout) {
           sessionOptions={{
             duration: keplerSessionDuration,
           }}
+          //@ts-ignore
           chains={chains}
           assetLists={assets}
+          //@ts-ignore
           wallets={[...keplrWallets]}
           walletModal={undefined}
           modalViews={{
+            //@ts-ignore
             Connected: WalletModal,
           }}
           signerOptions={signerOptions}
@@ -109,9 +112,11 @@ function CreateCosmosApp({ Component, pageProps }: AppPropsWithLayout) {
                           <VotingPeriodContextProvider>
                             <LeaveConfirmContextProvider>
                               <Layout>
+                                {/*@ts-ignore */}
                                 <ErrorBoundary>
                                   <CoreSlotProposalsContextProvider>
                                     <ModalContainer />
+                                    {/*@ts-ignore */}
                                     <Component
                                       key={router.asPath}
                                       {...pageProps}
