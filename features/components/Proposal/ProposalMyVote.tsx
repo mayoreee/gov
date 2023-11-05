@@ -9,7 +9,7 @@ import {
   Badge,
 } from '@chakra-ui/react';
 import { useToast } from '../../../hooks/useToast';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 
 import { useState } from 'react';
 import { SigningCosmWasmClient } from '@jmesworld/cosmwasm-stargate';

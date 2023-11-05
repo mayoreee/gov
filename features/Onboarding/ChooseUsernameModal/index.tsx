@@ -18,7 +18,7 @@ import {
 } from './ChooseUsernameModalComponent';
 import { useCosmWasmClientContext } from '../../../contexts/CosmWasmClient';
 import { useDebounce } from '../../../hooks/useDebounce';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { chainName } from '../../../config/defaults';
 import { useIdentityContext } from '../../../contexts/IdentityContext';
 import { daoNameSchema } from '../../../utils/dao';

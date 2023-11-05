@@ -7,7 +7,7 @@ import {
   Tooltip,
 } from '@chakra-ui/react';
 import { useToast } from '../../hooks/useToast';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { chainName } from '../../config/defaults';
 import { ReactNode, useState } from 'react';
 import { SigningCosmWasmClient } from '@jmesworld/cosmwasm-stargate';

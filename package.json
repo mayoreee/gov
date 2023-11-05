@@ -27,6 +27,7 @@
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "@jmesworld-cosmos-kit/core": "2.7.4-beta.2",
+    "@jmesworld-cosmos-kit/react": "2.9.5-beta.1",
     "@jmesworld/cosmwasm-stargate": "0.31.1-beta.1",
     "@jmesworld/stargate": "0.31.1-beta.1",
     "@tanstack/react-query": "^4.13.0",
@@ -72,5 +73,8 @@
     "husky": "^8.0.0",
     "prettier": "^2.8.8",
     "typescript": "4.9.3"
+  },
+  "resolutions": {
+    "@interchain-ui/react": "1.11.0"
   }
 }
