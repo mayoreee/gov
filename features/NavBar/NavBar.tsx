@@ -9,7 +9,7 @@ import {
   Divider,
 } from '@chakra-ui/react';
 import { Dispatch, SetStateAction } from 'react';
-import { WalletStatus } from '@cosmos-kit/core';
+import { WalletStatus } from '@jmesworld-cosmos-kit/core';
 import dynamic from 'next/dynamic';
 import { NavBarItem } from './NavBarItem';
 import { NavBarButton } from './NavBarButton';

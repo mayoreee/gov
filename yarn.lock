@@ -1495,21 +1495,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chain-registry/types@npm:0.17.0, @chain-registry/types@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@chain-registry/types@npm:0.17.0"
+  dependencies:
+    "@babel/runtime": ^7.21.0
+  checksum: 4a36ecb2b50da88af79bdb825fcfef9f6acebb4dd02cc4d09caacd10741006f9aebbf0672284caa5519261221b2736ab52e4ed16a126a68f4f64cbb931872661
+  languageName: node
+  linkType: hard
+
 "@chain-registry/types@npm:^0.14.0":
   version: 0.14.0
   resolution: "@chain-registry/types@npm:0.14.0"
   dependencies:
     "@babel/runtime": ^7.19.4
   checksum: 88106166545321a394d1ea74eb42a1d4eed01170715f319454e11777a49657423ba7a1d6bfe7ef0cc10348a691055d835e04b73e42116f40728f9cbd32bf2a7a
-  languageName: node
-  linkType: hard
-
-"@chain-registry/types@npm:^0.17.0":
-  version: 0.17.0
-  resolution: "@chain-registry/types@npm:0.17.0"
-  dependencies:
-    "@babel/runtime": ^7.21.0
-  checksum: 4a36ecb2b50da88af79bdb825fcfef9f6acebb4dd02cc4d09caacd10741006f9aebbf0672284caa5519261221b2736ab52e4ed16a126a68f4f64cbb931872661
   languageName: node
   linkType: hard
 
@@ -4969,24 +4969,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cosmos-kit/core@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@cosmos-kit/core@npm:1.3.0"
-  dependencies:
-    "@chain-registry/types": 0.13.0
-    "@walletconnect/types": 2.2.0
-    bowser: 2.11.0
-    events: 3.3.0
-  peerDependencies:
-    "@cosmjs/amino": ">= 0.28"
-    "@cosmjs/cosmwasm-stargate": ">= 0.28"
-    "@cosmjs/proto-signing": ">= 0.28"
-    "@cosmjs/stargate": ">= 0.28"
-    cosmjs-types: ">= 0.5"
-  checksum: 6e081941239bd6ec585641ccad8ad201f487a5773383677e1aefbb0d103e78beb1ff7e9445f0804f341064806dc61e32e5443bf14318cabcbd062d55d86a411f
-  languageName: node
-  linkType: hard
-
 "@cosmos-kit/core@npm:^1.0.1, @cosmos-kit/core@npm:^1.0.16, @cosmos-kit/core@npm:^1.0.4, @cosmos-kit/core@npm:^1.3.0, @cosmos-kit/core@npm:^1.8.0":
   version: 1.8.0
   resolution: "@cosmos-kit/core@npm:1.8.0"
@@ -6070,13 +6052,13 @@ __metadata:
     "@cosmjs/amino": ^0.29.3
     "@cosmjs/cosmwasm-stargate": 0.31.1
     "@cosmjs/stargate": 0.31.1
-    "@cosmos-kit/core": 1.3.0
     "@cosmos-kit/cosmostation": 0.14.18
     "@cosmos-kit/keplr": 0.33.41
     "@cosmos-kit/leap": 0.13.18
     "@cosmos-kit/react": 1.3.11
     "@emotion/react": 11.10.5
     "@emotion/styled": 11.10.5
+    "@jmesworld-cosmos-kit/core": 2.7.4-beta.2
     "@jmesworld/cosmwasm-stargate": 0.31.1-beta.1
     "@jmesworld/stargate": 0.31.1-beta.1
     "@keplr-wallet/types": ^0.11.40
@@ -6123,6 +6105,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@jmesworld-cosmos-kit/core@npm:2.7.4-beta.2":
+  version: 2.7.4-beta.2
+  resolution: "@jmesworld-cosmos-kit/core@npm:2.7.4-beta.2"
+  dependencies:
+    "@chain-registry/types": 0.17.0
+    "@jmesworld/cosmwasm-stargate": ^0.31.1-beta.1
+    "@jmesworld/stargate": ^0.31.1-beta.1
+    "@walletconnect/types": 2.7.2
+    bowser: 2.11.0
+    events: 3.3.0
+    uuid: ^9.0.1
+  peerDependencies:
+    "@cosmjs/amino": "*"
+    "@cosmjs/proto-signing": "*"
+    cosmjs-types: "*"
+  checksum: 428df8e9b54d3f2e8c346ae2bc225f4da1abe6de6d0a6648ef85d49e9ad5efd9f2d622c4764f80e18e821e0d1701bf8e3f5e6e2f57445dd449f4813946765e40
+  languageName: node
+  linkType: hard
+
 "@jmesworld/cosmjs-types@npm:^0.8.0":
   version: 0.8.0
   resolution: "@jmesworld/cosmjs-types@npm:0.8.0"
@@ -6133,7 +6134,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jmesworld/cosmwasm-stargate@npm:0.31.1-beta.1":
+"@jmesworld/cosmwasm-stargate@npm:0.31.1-beta.1, @jmesworld/cosmwasm-stargate@npm:^0.31.1-beta.1":
   version: 0.31.1-beta.1
   resolution: "@jmesworld/cosmwasm-stargate@npm:0.31.1-beta.1"
   dependencies:
@@ -7448,7 +7449,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@walletconnect/heartbeat@npm:1.2.1, @walletconnect/heartbeat@npm:^1.0.1":
+"@walletconnect/heartbeat@npm:1.2.1":
   version: 1.2.1
   resolution: "@walletconnect/heartbeat@npm:1.2.1"
   dependencies:
@@ -7650,20 +7651,6 @@ __metadata:
     "@walletconnect/logger": ^2.0.1
     events: ^3.3.0
   checksum: 7a02e0a5e81908213f0669cb835e4140f11efac8ed2ab8485170a532568a835dc8be06b4b20aa6832c5cc7a97cc39079e7a194b63dbd382e36e49807abea3126
-  languageName: node
-  linkType: hard
-
-"@walletconnect/types@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@walletconnect/types@npm:2.2.0"
-  dependencies:
-    "@walletconnect/events": ^1.0.1
-    "@walletconnect/heartbeat": ^1.0.1
-    "@walletconnect/jsonrpc-types": ^1.0.2
-    "@walletconnect/keyvaluestorage": ^1.0.2
-    "@walletconnect/logger": ^2.0.1
-    events: ^3.3.0
-  checksum: 1a73407812c050a8d3215de1fbd4ac9dec0a4f23eda69003d84ab8a1456567ac2432f3eb02293f3c1d564d2b172fa7eb712508535edbab4e18349c292198f804
   languageName: node
   linkType: hard
 
@@ -13592,7 +13579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^9.0.0":
+"uuid@npm:^9.0.0, uuid@npm:^9.0.1":
   version: 9.0.1
   resolution: "uuid@npm:9.0.1"
   bin:

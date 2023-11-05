@@ -3,7 +3,7 @@ import React, { MouseEventHandler, ReactNode } from 'react';
 import { Icon, Stack, Text, useColorModeValue } from '@chakra-ui/react';
 
 import { FiAlertTriangle } from 'react-icons/fi';
-import { WalletStatus } from '@cosmos-kit/core';
+import { WalletStatus } from '@jmesworld-cosmos-kit/core';
 // import { addJMEStoKeplr, checkJMESInKeplr } from '../../../actions/keplr';
 
 import { ConnectedWalletButton } from './ConnectedWalletButton';

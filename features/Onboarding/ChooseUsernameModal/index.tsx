@@ -10,7 +10,7 @@ import {
   IdentityserviceQueryClient,
 } from '../../../client/Identityservice.client';
 import { StdFee } from '@cosmjs/stargate';
-import { WalletStatus } from '@cosmos-kit/core';
+import { WalletStatus } from '@jmesworld-cosmos-kit/core';
 import { useIdentityserviceRegisterUserMutation } from '../../../client/Identityservice.react-query';
 import {
   ChooseUsernameCardComponent,

@@ -6,7 +6,7 @@ import { defaultTheme } from '../config';
 // import { wallets as keplrWallets } from '@cosmos-kit/keplr';
 import { wallets as keplrWallets } from '@cosmos-kit/keplr-extension';
 
-import { SignerOptions } from '@cosmos-kit/core';
+import { SignerOptions } from '@jmesworld-cosmos-kit/core';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Chain } from '@chain-registry/types';
 import jmesTestnet from '../config/chains/jmes-testnet/chain.json';
