@@ -8,7 +8,7 @@ import {
   IconButton,
 } from '@chakra-ui/react';
 import OnboardingProgressIndicator from './OnboardingProgressIndicator';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { chainName } from '../../../config/defaults';
 import { connectKeplrWallet } from '../../../actions/keplr';
 import { ArrowBackIcon, CloseIcon } from '@chakra-ui/icons';

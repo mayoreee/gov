@@ -1,4 +1,4 @@
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { Box, GridItem, Icon, Stack } from '@chakra-ui/react';
 import { MouseEventHandler } from 'react';
 import { FiAlertCircle, FiAlertTriangle } from 'react-icons/fi';

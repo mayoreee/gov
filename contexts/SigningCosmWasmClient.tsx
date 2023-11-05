@@ -6,7 +6,7 @@ import {
   useState,
 } from 'react';
 import { SigningCosmWasmClient } from '@jmesworld/cosmwasm-stargate';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { chainName } from '../config/defaults';
 import { Alert, Button } from '@chakra-ui/react';
 import { ErrorAlert } from '../features/components/genial/Alert';

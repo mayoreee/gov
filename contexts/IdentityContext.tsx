@@ -9,7 +9,7 @@ import { Identity } from '../client/Identityservice.types';
 import { useCosmWasmClientContext } from './CosmWasmClient';
 import { IdentityserviceQueryClient } from '../client/Identityservice.client';
 import { chainName, IDENTITY_SERVICE_CONTRACT } from '../config/defaults';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { CosmWasmClient } from '@jmesworld/cosmwasm-stargate';
 import { useIdentityFetch } from '../hooks/useIdentityFetch';
 

@@ -14,7 +14,7 @@ import {
 import { useToast } from '../../../hooks/useToast';
 
 import OnboardingProgressIndicator from './OnboardingProgressIndicator';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { chainName } from '../../../config/defaults';
 import { useIdentityContext } from '../../../contexts/IdentityContext';
 import { useBalanceContext } from '../../../contexts/balanceContext';

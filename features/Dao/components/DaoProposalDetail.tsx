@@ -9,7 +9,7 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import {
   IDENTITY_SERVICE_CONTRACT,
   NEXT_PUBLIC_GOVERNANCE_CONTRACT,
