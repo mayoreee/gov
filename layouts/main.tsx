@@ -2,7 +2,7 @@ import { ReactElement } from 'react';
 import { Box, Container, Flex } from '@chakra-ui/react';
 import MobileViewDisabled from '../features/Onboarding/components/MobileViewDisabled';
 import { Header, NavBar } from '../features';
-import { useChain } from '@cosmos-kit/react';
+import { useChain } from '@jmesworld-cosmos-kit/react';
 import { chainName } from '../config/defaults';
 import { useAppState } from '../contexts/AppStateContext';
 import { useIdentityContext } from '../contexts/IdentityContext';
